@@ -1,0 +1,20 @@
+Create a directory PRJ
+
+$ go mod init github.com/YOU/PRJ
+
+$ cat go.mod
+$ mkdir -p cmd/hello
+$ touch cmd/hello/main.go
+
+implement main.go, run it
+
+$ go get rsc.io/quote
+
+start using it
+
+downgrade quote
+$ go get rsc.io/quote@v1.0.0
+
+build etc.
+
+upgrade quote
