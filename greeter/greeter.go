@@ -7,5 +7,5 @@ func Name() string {
 }
 
 func Talk() string {
-	return quote.Hello()
+	return "Buggy " + quote.Hello()
 }
